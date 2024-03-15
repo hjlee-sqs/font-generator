@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "bezier-js": "^6.1.4"
+  }
+}

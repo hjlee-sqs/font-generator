@@ -1,0 +1,113 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* CSS */
+/* p { font-size: 1rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+small { font-size: 0.75rem; } */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* 고정 위치 */
+  z-index: 999999; /* z-index 최상단 설정 */
+  top: 0; /* 페이지 상단에 위치 */
+  left: 0; /* 왼쪽 경계에 위치 */
+  right: 0; /* 오른쪽 경계에 위치 */
+  background-color: #f2f2f2;
+  border: 1px solid black;
+}
+.custom_nav-container {
+  z-index: 9998;
+  padding: 5px 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 가운데 정렬 */
+  width: 100vw;
+  margin: 0 auto; /* 중앙 정렬 */
+  padding-top: 20px; /* 아래쪽 간격 */
+  padding-bottom: 20px; /* 아래쪽 간격 */
+  background-color: #f2f2f2;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  /* flex: 0 0 60%;  flex-grow, flex-shrink, flex-basis */
+  width: 25vw;
+  height: 350px;
+  margin: 0 40px;
+  overflow: hidden; /* 넘치는 내용 가리기 */
+  white-space: nowrap; /* 줄바꿈 없애기 */
+  justify-content: flex-start; /* Align elements to the right */
+  text-align: right; /* Align text to the right */
+}
+
+#bezierForm {
+  flex: 0 0 auto; /* flex-grow, flex-shrink, flex-basis */
+  width: 20vw;
+  height: 300px;
+  margin: 0 40px;
+}
+
+#bezierForm input[type="range"] {
+  width: 80px;
+  margin: 0 8px;
+}
+
+#canvas {
+  flex: 0 0 auto; /* flex-grow, flex-shrink, flex-basis */
+  width: 300px;
+  height: 300px;
+  margin: 0 40px;
+}
+
+.top_space {
+  height: 500px; /* 높이 고정 */
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+small {
+  margin-top: 10px; /* 위쪽 간격 */
+  margin-bottom: 10px; /* 아래쪽 간격 */
+}
+
+/* style.css */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
